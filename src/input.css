@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sea:focus + .sg{
+    color: #1D9BF0;
+  }
