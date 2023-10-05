@@ -571,8 +571,16 @@ video {
   display: block;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
 }
 
 .hidden {
@@ -675,6 +683,26 @@ video {
   flex-shrink: 0;
 }
 
+.shrink {
+  flex-shrink: 1;
+}
+
+.grow-0 {
+  flex-grow: 0;
+}
+
+.basis-0 {
+  flex-basis: 0px;
+}
+
+.basis-10 {
+  flex-basis: 2.5rem;
+}
+
+.basis-2 {
+  flex-basis: 0.5rem;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -753,6 +781,10 @@ video {
 
 .gap-\[10px\] {
   gap: 10px;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .self-stretch {
@@ -879,6 +911,10 @@ video {
   padding: 1.25rem;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
@@ -977,6 +1013,21 @@ video {
 .py-tx {
   padding-top: 0.9375rem;
   padding-bottom: 0.9375rem;
+}
+
+.px-44 {
+  padding-left: 11rem;
+  padding-right: 11rem;
+}
+
+.py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pb-0 {
@@ -1137,16 +1188,16 @@ video {
   caret-color: #1D9BF0;
 }
 
-.opacity-50 {
-  opacity: 0.5;
-}
-
 .opacity-0 {
   opacity: 0;
 }
 
 .opacity-100 {
   opacity: 1;
+}
+
+.opacity-50 {
+  opacity: 0.5;
 }
 
 .shadow-3xl {
